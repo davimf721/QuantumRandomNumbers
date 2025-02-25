@@ -3,7 +3,7 @@ open Microsoft.Quantum.Intrinsic;
 open Microsoft.Quantum.Diagnostics;
 open Microsoft.Quantum.Measurement;
 @EntryPoint()
-operation Main() : Unit {
+operation GenerateNumbers() : Unit {
     use register = Qubit[4];
 
     // Prepare the qubits in a superposition state
